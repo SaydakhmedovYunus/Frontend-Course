@@ -1,0 +1,924 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid blue; */
+}
+/* main wrapper start */
+section {
+    padding-left: calc(10.2vw - 9.6px); /*121px 23.5px */
+    padding-right: calc(10.2vw - 9.6px);
+    margin-bottom: calc(10.4vw + 26.6px);
+}
+.main_wrapper{
+    position: relative;
+    background-image: url(./img/html_css_js\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top calc(4.58vw + 62.3px) left calc(63vw - 18.3px);
+    background-size: calc(22.5vw + 107px);
+}
+.main_wrapper img {
+    margin-top: 37px;
+    width: calc(8.3vw + 188.3px);
+}
+.courseInfo {
+    margin-top: calc(5.93vw + 9px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: calc(13.6vw - 13.6px);
+}
+@media (max-width:900px) {
+    .courseInfo {
+        width: 270px;
+        flex-wrap: wrap;
+    }
+    .main_wrapper{
+        background-position: top calc(4.58vw + 62.3px) left calc(49vw - 18.3px);
+}
+}
+.startDate {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.startDate span {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.52vw + 14.3px);     /*21px 16px */
+    line-height: 29.4px;
+    text-align: left;
+    color:#222222;
+}
+.startDate h3 {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: (0.52vw + 14.3px);   /*21px 16px */
+    font-weight: 700;
+    line-height: 29.4px;
+    text-align: left;
+}
+.main_wrapper h1 {
+    margin-top: calc(2.91vw + 38.6px);
+    font-family: 'Chava', sans-serif;
+    font-size: calc(3.95vw + 29.3px);
+    line-height: 110%;
+    text-align: left;
+    color:#222222;
+}
+.main_wrapper h1:hover {
+    color: #6E3ABA; /* Новый цвет текста при наведении */
+    transform: scale(1.01); /* Легкое увеличение при наведении */
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Легкая тень для текста */
+    transition: 1s;
+}
+.main_wrapper p {
+    width: calc(68.7vw + 50px);
+    margin-top: calc(2.08vw + 13.3px);
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.93vw + 15px);
+    font-weight: 300;
+    line-height: 37.8px;
+    text-align: left;
+    color:#222222;
+}
+.main_wrapper p:hover {
+    color: #6E3ABA; /* Новый цвет текста при наведении */
+    transform: scale(1.01); /* Легкое увеличение при наведении */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Легкая тень для текста */
+    transition: 1s;
+}
+.getCourseBtns {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap
+}
+.getCourseBtns button:nth-child(1) {
+    width: 328px;
+    height: 61px;
+    border-radius: 12px;
+    border: none;
+    background-color: #6E3ABA;
+    color:#FFFFFF;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.2px;
+    text-align: center;
+}
+.getCourseBtns button:nth-child(1):hover {
+    background-color: #FF4081; /* Яркий контрастный цвет при наведении */
+    color: #FFFFFF; /* Белый цвет текста при наведении */
+    box-shadow: 0 4px 20px rgba(255, 64, 129, 0.5); /* Тень при наведении */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+    transition: 1s;
+}
+.getCourseBtns button:nth-child(2){
+    width: 328px;
+    height: 61px;
+    border-radius: 12px;
+    border: 1px solid #6E3ABA;
+    background-color: transparent;
+    color:#6E3ABA;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.2px;
+    text-align: center;
+}
+
+.getCourseBtns button:nth-child(2):hover {
+    background-color: #FF4081; /* Яркий контрастный цвет при наведении */
+    color: #FFFFFF; /* Белый цвет текста при наведении */
+    box-shadow: 0 4px 20px rgba(255, 64, 129, 0.5); /* Тень при наведении */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+    transition: 1s;
+    border:none;
+}
+/* main wrapper end */
+
+/* second section emoji_wrapper start */
+.emojies_wrapper h2 {
+    width: calc(40.5vw + 140.33px);
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(2.5vw + 26px);
+    font-weight: 500;
+    line-height: 117.7%;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color:#222222;
+}
+.emojies_wrapper h2:hover {
+    color: #FF6F61; /* Яркий цвет при наведении (персиковый) */
+    transform: scale(1.003); /* Легкое увеличение при наведении */
+    text-shadow: 0 4px 8px rgba(255, 111, 97, 0.3); /* Легкая тень для текста */
+    transition: 1s;
+}
+.emoji_blocks {
+    margin-top: calc(5.2vw + 23.3px);
+    display: flex;
+    flex-direction: row;
+    gap: calc(3.1vw + 30px);
+    flex-wrap: wrap;
+
+}
+.emoji_block {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.emoji_block img {
+    width: calc(3.1vw + 170px);
+}
+.emoji_blocks h3 {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.9vw + 15px);       /* 27px 18px */
+    font-weight: 600;
+    line-height: 37.8px;
+    text-align: left;
+}
+.emoji_blocks p {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.9vw + 15px);  /* 27px 18px */
+    line-height: 37.8px;
+    text-align: left;
+}
+/* second section emoji_wrapper end */
+
+/* timer_wrapper start */
+.timer_wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#6E3ABA;
+}
+.timer_wrapper h2 {
+    margin-top: calc(4.2vw + 26.6px);      /* 52px 34px */
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(1.9vw + 28px);
+    font-weight: bold;
+    line-height: 117.8%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color:#FFFFFF;
+}
+.timer_blocks {
+    margin-top: calc(3.9vw + 7.6px);
+    display: flex;
+    flex-direction: row;
+    gap: calc(7.3vw + 3.3px);
+}
+.timer_block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:center;
+}
+.timer_block h3 {
+    font-family: 'Chava', sans-serif;
+    font-size: calc(11.9vw + 22px);
+    line-height: 107.5%;
+    text-align: left;
+    color:#2F1D4E;
+}
+.timer_block span {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(1.8vw + 4.3px);    /* 27px 10px */
+    font-weight: 500;
+    line-height: 31.81px;
+    text-align: center;
+    color:#2F1D4E;
+}
+.timer_wrapper button {
+    margin-top: 57px;
+    margin-bottom: 88px;
+    width: calc(2.9vw + 290.6px);
+    height: 61px;
+    border-radius: 12px;
+    border:none;
+    background-color: #FFFFFF;
+    color:#6E3ABA;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.2px;
+    text-align: center;
+}
+.timer_wrapper button:hover {
+    background-color: #FF4081; /* Яркий контрастный цвет при наведении */
+    color: #FFFFFF; /* Белый цвет текста при наведении */
+    box-shadow: 0 4px 20px rgba(255, 64, 129, 0.5); /* Тень при наведении */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+    transition: 1s;
+}
+/* timer_wrapper end */
+
+/* speakers_wrapper start */
+.speakers_wrapper {
+    margin-top: calc(10.4vw + 26.6px);
+    display: flex;
+    flex-direction: column;
+}
+.speakers_wrapper h2 {
+    width: calc(28.5vw + 202.3px);
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(2.5vw + 26px);
+    font-weight: 500;
+    line-height: 117.7%;
+    letter-spacing: 0.01em;
+}
+.speakers_main_block {
+    margin-top: calc(5.20vw + 23.3px);
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap:calc(3.2vw + 9.6px);
+}
+.speakers_main_block img {
+    width: 399px; 
+}
+.speakers_info_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.speakers_info {
+    display: flex;
+    flex-direction: column;
+    gap: calc(1.04vw + 6.6px);
+}
+.speakers_info h3{
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(1.44vw + 25.6px);
+    font-weight: 700;
+    line-height: 120.8%;
+    
+}
+
+.speakers_info p{
+    width: calc(27.7vw + 211.3px); 
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.93vw + 15px);
+    line-height: 37.8px;
+}
+@media (max-width:700px) {
+    .speakers_main_block img{
+        width: 100%;;
+    }
+    .speakers_info h3{
+        width: 270px;
+        font-size: calc(1.44vw + 23.6px);
+    }
+    .speakers_info p {
+        width: calc(16.7vw + 211.3px);
+    }
+    .timer_blocks {
+        gap: calc(2.3vw + 3.3px);
+    }
+    .speakers_main_block {
+        flex-wrap: wrap;
+    }
+}
+.emoji_grids {
+    margin-top: calc(5.20vw + 23.3px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: calc(5vw - 14px);
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.block img {
+    width: 36px;
+    height: 36px;
+}
+.block span {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.52vw + 14.3px);
+    line-height: 140%;
+}
+/* speakers_wrapper end */
+
+/* two_month's start */
+.two_monthes h2 {
+    width: calc(77.2vw + 32.6px);
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(2.5vw + 26px);
+    font-weight: 500;
+    line-height: 117.7%;
+    letter-spacing: 0.01em;
+    color:#222222;
+}.courses_blocks {
+    margin-top: calc(7.2vw - 3.3px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(9.4vw + 0px);
+}
+.courses_block {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.courses_block h3 {
+font-family: 'TT Hoves', sans-serif;
+font-size: calc(0.93vw + 15px);
+font-weight: 600;
+line-height: 37.8px;
+}
+.courses_block p {
+font-family: 'TT Hoves', sans-serif;
+font-size: calc(0.93vw + 15px); 
+
+/* 27px 18px */
+line-height: 37.8px;
+}
+
+/* two_month's end */
+
+/* list_wrapper start */
+.courseProgram {
+    margin-top: calc(12vw - 3px);
+    padding-left: calc(10.8vw - 17px);
+}
+
+.courseProgram_wrapper {
+    border: 1px solid #000000;
+    position: relative;
+}
+
+.courseProgram_wrapper img {
+    width: 8vw;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+}
+.courseProgram_wrapper h2 {
+    margin-top: calc(4.4vw + 23px);
+    padding-left: calc(4.9vw + 1px);
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(2.6vw + 24px);
+    font-weight: 500;
+    line-height: 68.32px;
+}
+
+.courseProgram_wrapper ol {
+    margin-top: calc(1.7vw + 17px);
+    width: calc(73vw + 3px);
+    padding-left: calc(4.9vw + 1px);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.courseProgram_wrapper ol li {
+    padding: 24px 0;
+    font-size: calc(0.6vw + 14px);
+    border-bottom: 1px solid #A1A1A1;
+}
+
+.courseProgram_wrapper .purple_button {
+    width: 424px;
+    height:61px;
+    border-radius: 12px;
+    display: block;
+    margin: 34px auto 0;
+    margin-bottom: 20px;
+    border:none;
+    text-align:center;
+    background-color:#6E3ABA;
+    color:#FFFFFF;
+}
+.courseProgram_wrapper .purple_button:hover {
+    background-color: #FF4081; /* Яркий контрастный цвет при наведении */
+    color: #FFFFFF; /* Белый цвет текста при наведении */
+    box-shadow: 0 4px 20px rgba(255, 64, 129, 0.5); /* Тень при наведении */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+    transition: 1s;
+    border:none;
+}
+
+.courseProgram .purple_button.btnMob {
+    display: none;
+}
+
+@media(max-width: 545px) {
+    .courseProgram_wrapper .purple_button {
+        display: none;
+    }    .courseProgram .purple_button.btnMob {
+        display: block;
+        margin: 34px auto 0;
+        width:280px;
+        height:61px;
+        text-align:center;
+        background-color:#6E3ABA;
+        border-radius: 12px;
+        border:none;
+        color:#FFFFFF;
+    }
+    .courseProgram .purple_button.btnMob:hover {
+        background-color: #FF4081; /* Яркий контрастный цвет при наведении */
+        color: #FFFFFF; /* Белый цвет текста при наведении */
+        box-shadow: 0 4px 20px rgba(255, 64, 129, 0.5); /* Тень при наведении */
+        transform: scale(1.05); /* Увеличение кнопки при наведении */
+        transition: 1s;
+        border:none;
+    }
+}
+
+.courseProgram_wrapper ol {
+    margin-bottom: 20px;
+}
+
+/* list_wrapper end */
+
+/* diplom wrapper start*/
+.Diplom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDiplom {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Колонки с разными ширинами */
+    grid-template-rows: auto auto; /* Ряд для заголовка и параграфа */
+    grid-template-areas: 
+        "photo header"
+        "photo paragraph";
+    gap: 20px; /* Отступы между элементами */
+}
+
+.info.A {
+    grid-area: photo;
+}
+
+.info.B {
+    grid-area: header;
+}
+
+.info.C {
+    grid-area: paragraph;
+}
+
+.info img {
+    max-width: 100%; /* Убедитесь, что изображение масштабируется корректно */
+    height: auto;    /* Поддержка соотношения сторон */
+}
+
+.info h4 {
+    width: 578px;
+    margin: 0;
+    font-family: 'TT Hoves',sans-serif;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 117.7%;
+    text-transform: uppercase;
+}
+
+.info p {
+    width: 514px;
+    margin: 0;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.93vw + 15px); /*  27px 18px */
+    line-height: 37.8px;
+}
+@media (max-width:500px) {
+    .Diplom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mainDiplom {
+        display: grid;
+        grid-template-columns: 1fr 2fr; /* Колонки с разными ширинами */
+        grid-template-rows: auto auto; /* Ряд для заголовка и параграфа */
+        grid-template-areas: 
+            "header"
+            "photo"
+            "paragraph";
+        gap: 20px; /* Отступы между элементами */
+    }
+    .info h4 {
+        width: 270px;
+        font-size: calc(2.5vw + 26px);
+    }
+    .info p {
+        width: 270px;
+    }
+
+}
+
+/* diplom wrapper end*/
+
+/* payment wrapper start*/
+.payment_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.payment_wrapper h2 {
+font-family: 'TT Hoves', sans-serif;
+font-size: calc(2.5vw + 26px);
+font-weight: 500;
+line-height: 117.7%;
+text-align: left;
+color:#222222;
+}
+
+.payment_wrapper p {
+font-family: 'TT Hoves', sans-serif;
+font-size: calc(0.93vw + 15px); /*  27px 18px */
+line-height: 37.8px;
+}
+/* payment wrapper end*/
+
+
+.awaitings_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.awaitings_wrapper h2 {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(2.5vw + 26px);
+    font-weight: 500;
+    line-height: 117.7%;
+    text-align: left;
+    
+}
+.box_inside {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 10px;
+}
+.box_inside img {
+    width: 100%;
+    height: 100%;
+}
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.articles p {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 21px;
+    line-height: 29.4px;
+}
+@media (max-width:900px) {
+    .speakers_main_block {
+        flex-wrap: wrap;
+    }
+    .box_inside {
+        flex-wrap: wrap;
+    }
+    .box_inside img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.feedback_wrapper {
+    display: flex;
+    flex-direction:column;
+    gap:40px
+}
+.feedback_wrapper h2 {
+    font-size: calc(2.5vw + 26px);
+    font-family: 'TT Hoves', sans-serif;
+    font-weight: 500;
+    line-height: 68.32px;
+}
+.main_wrapper_slider {
+    border-radius: 12px;
+    background-color:#F0F7FD;
+    width: 335px;
+    height: 484px;
+    padding: 50px 20px;
+}
+.slider_card {
+    display: flex;
+    flex-direction: column;
+}
+.slider_card img {
+    width: 38px;
+    height:38px;
+    margin-bottom: 12px;
+    border-radius:50%;
+}
+
+.slider_card p {
+    width: 100%;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 21px;
+    line-height: 140%;
+    color:#222222;
+    margin-bottom: 40px;
+}
+.face_side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+.face_side img {
+    width: 72px;
+    height:72px;
+}
+.face_side span {
+    width: 169px;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.31vw + 17px);
+    line-height: 29.4px;
+}
+@media (max-width:370px) {
+    .main_wrapper_slider {
+        background-color:#F0F7FD;
+        width: 290px;
+        height: 100%;
+        border-radius: 12px;
+        padding: 50px 20px;
+    }
+}
+
+.about_us_wrapper {
+    margin-top: calc(10.4vw + 26.6px);
+    display: flex;
+    flex-direction: column;
+}
+.about_us_wrapper h2 {
+font-family: 'TT Hoves', sans-serif;
+font-size: calc(2.5vw + 26px);
+font-weight: 500;
+line-height: 117%;
+}
+.about_us_main {
+    margin-top: calc(4.7vw + 18.6px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    gap: calc(5.9vw + 21px);
+}
+.cup_block {
+display: flex;
+flex-direction: column;
+gap: calc(2.08vw + 13.3px);
+}
+.cup_block img {
+    width: 110px;
+    height: 110px;
+}
+.cup_block p {
+    width: 426px;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.93vw + 15px);
+    font-weight: 600;
+    line-height: 37.8px;
+}
+.graduaters_blocks {
+    display: flex;
+    flex-direction: column;
+    gap:calc(1.4vw + 26.6px);
+}
+.graduater_block h3 {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(2.5vw + 26px);
+    font-weight: 700;
+    line-height: 117%;
+}
+.graduater_block span {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.52vw + 14.3px);
+}
+@media (max-width:800px) {
+    .cup_block  p{
+        width: 280px;
+    }
+}
+
+.photos {
+    width: 100%;
+    height:100%;
+}
+.pre_last_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.pre_last_wrapper h2 {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(2.5vw + 26px);
+    font-weight: 500;
+    line-height: 117%;
+}
+.pre_last_wrapper p {
+font-family: 'TT Hoves', sans-serif;
+font-size: calc(0.93vw + 15px);
+line-height: 37.8px;
+}
+footer {
+    padding-top: 80px;
+    padding-left: calc(10.2vw - 9.6px); /*121px 23.5px */
+    padding-right: calc(10.2vw - 9.6px);
+    background-color:#222222;
+    display: flex;
+    flex-direction: row;
+    gap: calc(5.93vw + 69px);
+}
+.get_course {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: calc(4.06vw + 27px);
+}
+.get_course h2{
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(2.5vw + 26px);
+    font-weight: 500;
+    line-height: 117%;
+    color:#FFFFFF;
+    text-transform: uppercase;
+}
+.game_icons {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.game_icons .mini_card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.mini_card span{
+    color:#FFFFFF;
+    text-transform: uppercase;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.93vw + 15px);
+    line-height: 140%;
+}
+.mini_card img {
+    width: 28px;
+    height: 28px;
+}
+
+.forma_container {
+    position: relative;
+    padding: calc(5.2vw + 3.3px);
+    margin-bottom: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFFFFF;
+    border-radius:12px;
+    gap: 10px;
+}
+.forma_container h2 {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.41vw + 24.6px);
+    font-weight: 700;
+    line-height: 117%;
+    text-align: center;
+    text-transform: uppercase; 
+}
+.forma_container span {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.52vw + 14.3px);
+    line-height: 140%;
+    text-align: center;
+}
+.forma_container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 23px;
+    margin-bottom: 41px;
+}
+.forma_container form label {
+    width: 100%;
+}
+.forma_container form label input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom:1px solid #A1A1A16B;
+}
+.forma_container form button {
+    width: 100%;
+    height:61px;
+    border-radius: 12px;
+    background-color:#6E3ABA;
+    color:#FFFFFF;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.2px;
+    text-align: center;
+    border: none;
+}
+.forma_container form button:hover {
+    background-color: #FF4081; /* Яркий контрастный цвет при наведении */
+    color: #FFFFFF; /* Белый цвет текста при наведении */
+    box-shadow: 0 4px 20px rgba(255, 64, 129, 0.5); /* Тень при наведении */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+    transition: 1s;
+    border:none;
+}
+.forma_container  .last_grey {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 18px;
+    line-height: 21.2px;
+    text-align: center;
+    color:gray;
+}
+.sale {
+    position: absolute;
+    width: calc(8.2vw + 53.6px);
+    height:calc(8.2vw + 53.6px);;
+    top: -61px;
+    left: calc(15.5vw + 265.3px);
+    background-color:#6E3ABA;
+    border-radius:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.sale h3 {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(2.39vw + 32.3px);
+    font-weight: 700;
+    line-height: 117%;
+    color:#FFFFFF;
+}
+@media (max-width:900px) {
+    footer {
+        flex-wrap: wrap;
+    }
+    .sale {
+        left: calc(15.5vw + 205.3px);
+    }
+}
+@media (max-width:380px) {
+    .sale {
+        left: calc(15.5vw + 195px);
+    }
+}
+@media(max-width:330px) {
+    .sale {
+        left: calc(15.5vw + 160px);
+    }
+}
