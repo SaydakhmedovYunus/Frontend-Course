@@ -914,7 +914,7 @@ footer {
 }
 @media (max-width:380px) {
     .sale {
-        left: calc(15.5vw + 195px);
+        left: calc(15.5vw + 185px);
     }
 }
 @media(max-width:330px) {
